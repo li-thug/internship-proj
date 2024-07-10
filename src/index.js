@@ -1,5 +1,4 @@
 import { connectToDb } from "./config/mongoDb.js";
-import app from "./app.js";
 import env from "./utils/validateEnv.js"
 
 const port = env.PORT || 6000;
